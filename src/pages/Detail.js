@@ -7,7 +7,7 @@ import Modal from "../components/Modal";
 function Detail({reviewData, updateData, setPage}) {
   useEffect( () => {
     setPage("detail");
-  }, []);
+  }, [setPage]);
   
   const location = useLocation();
   const bookData = {
